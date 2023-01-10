@@ -1,0 +1,118 @@
+body {
+    background-color: #CCC;
+    padding: 50px 0;
+}
+.container {
+    width: 80%;
+    padding: 30px 0;
+    margin: auto;
+    background-color: #AAA;
+    min-height: 500px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 20px #000, -7px -7px 20px #000;
+}
+.container h1 {
+    text-align: center;
+    text-shadow: 2px 2px 10px #000, -2px -2px 10px #000;
+    font-weight: 800;
+    color: #FFF;
+}
+.container .box_input {
+    margin: auto;
+    width: 380px;
+}
+.container .box_input input {
+    padding: 10px;
+    font-size: 15px;
+    color: red;
+    background-color: #EEE;
+    border: unset;
+    outline: unset;
+    box-shadow: 1px 1px 5px #000;
+    font-weight: 700;
+}
+.container .box_input button {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px;
+    background-color: #0F0;
+    color: #FFF;
+    border: unset;
+    box-shadow: 3px 3px 3px #000;
+    transition: 0.45s ease-in-out transform, 0.4s ease-in-out box-shadow;
+}
+.container .box_input button:active {
+    transform: translate(2px,2px);
+    box-shadow: unset;
+}
+.container .generate {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    margin-bottom: 15px;
+    min-height: 300px;
+}
+.container .generate .box_generate {
+    background-color: red;
+    width: 150px;
+    height: 110px;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.container .generate .box_generate button  {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    padding: 0;
+    border: unset;
+    outline: unset;
+    background-color: transparent;
+    cursor: pointer;
+}
+.container .generate .box_generate button img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container .generate .box_generate h2 {
+    margin: 0;
+    text-align: center;
+    color: #FFF;
+}
+.container .generate .box_generate p {
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #FFF;
+}
+
+.container .generate .box_generate span {
+    display: block;
+    background-color: #FFF;
+    padding: 10px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 800;
+    color: red;
+}
+
+.container .deleteAll {
+    padding: 10px;
+    font-weight: 800;
+    font-size: 15px;
+    display: block;
+    margin: auto;
+    background-color: #F00;
+    border: unset;
+    outline: unset;
+    color: #FFF;
+    width: 150px;
+    border-radius: 50px;
+    box-shadow: 0 0 20px orange;
+    cursor: pointer;
+}
